@@ -6,11 +6,11 @@
  */
 'use strict'; // Demande un interprétation stricte du code
 
-// Demande la température
+// Demande la température à l'utilisateur
 let temperature = prompt("Température en celcius :");
-// Transforme age en entier
+// Transforme température en entier
 temperature = parseInt(temperature);
-// Si l'âge n'est pas un nombre => erreur
+// Si la température n'est pas un nombre => erreur
 if(isNaN(temperature)) {
     alert("Entrer une température !");
 } else {
