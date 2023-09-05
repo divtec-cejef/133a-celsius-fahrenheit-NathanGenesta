@@ -6,10 +6,8 @@
  */
 'use strict'; // Demande un interprétation stricte du code
 
-// Demande la température à l'utilisateur
-let temperature = prompt("Température en celcius :");
-// Transforme température en entier
-temperature = parseInt(temperature);
+// Demande la température à l'utilisateur et la transforme
+let temperature = parseFloat(prompt("Température en celcius :"));
 // Si la température n'est pas un nombre => erreur
 if(isNaN(temperature)) {
     alert("Entrer une température !");
